@@ -1,3 +1,11 @@
+from src.secrets import (
+    DB_HOST,
+    DB_USER,
+    DB_PASS,
+    DB_NAME,
+    DB_PORT
+)
+
 import mysql.connector as mysql
 
 class MySQLConnection:
