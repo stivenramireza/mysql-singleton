@@ -1,9 +1,3 @@
-DB_HOST='206.189.197.253'
-DB_USER='webnuti'
-DB_PASS='internonuti123'
-DB_NAME='webdb'
-DB_PORT='9306'
-
 import mysql.connector as mysql
 
 class MySQLConnection:
